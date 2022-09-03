@@ -19,7 +19,7 @@ export default function Hero() {
           </div>
 
           {/* heading */}
-          <div className="text-4xl lg:text-5xl text-white">
+          <div className="font-semi-bold text-4xl lg:text-5xl text-white">
             Fastest & Secure Platform To Invest In Cypto
           </div>
 
