@@ -8,6 +8,7 @@ export default function NavBar() {
 
   return (
     <div className="bg-[#0D0D2B] text-white flex font-Rubik">
+      TODO:Fix padding issues in mobile
       <nav className="w-[90%] ml-auto mr-auto">
         <div className="text-lg bold">
           <img src={logo} alt="" />
@@ -21,7 +22,11 @@ export default function NavBar() {
         <div className="nav-links">
           {links.map((node) => {
             return (
-              <a key={node} href="/" className="text-white text-base py-2 px-4">
+              <a
+                key={node}
+                href="/"
+                className="text-white text-base py-2 px-4 hover:border-b-[1px] hover:border-blue-500"
+              >
                 {node}
               </a>
             );

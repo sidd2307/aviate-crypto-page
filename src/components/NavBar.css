@@ -36,6 +36,11 @@ nav {
     justify-content: space-evenly;
   }
 
+  /* .nav-links > a:hover {
+    border-bottom: 1px;
+    border-color: aqua;
+  } */
+
   .nav-hamburguer-icon {
     display: none;
   }
