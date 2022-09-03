@@ -1,5 +1,6 @@
 import './App.css';
 import Calculator from './components/Calculator';
+import Cards from './components/Cards';
 import Hero from './components/Hero';
 import Info from './components/Info';
 import NavBar from './components/NavBar';
@@ -13,6 +14,7 @@ function App() {
       <Stats />
       <Info />
       <Calculator />
+      <Cards />
     </div>
   );
 }
