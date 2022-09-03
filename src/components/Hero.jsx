@@ -5,10 +5,9 @@ import { AiOutlineCaretRight } from "react-icons/ai";
 export default function Hero() {
   return (
     <div className="bg-[#0D0D2B] pt-1 xl:pt-10">
-      TODO:fix padding issues
       <div className="w-[100%] sm:w-[90%] md:w-[85%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-x-4 gap-y-6">
         {/* left section */}
-        <div className="flex flex-col justify-evenly h-[320px] mx-auto md:mt-10 w-[80%] md:w-[500px]">
+        <div className="flex flex-col justify-evenly h-[320px] mx-auto md:mt-10 w-[90%] md:w-[500px]">
           {/* section1 */}
           <div className="flex flex-row justify-between w-[90%] sm:w-[300px] bg-[#4b5563] p-1 rounded-full">
             <span className="text-xs py-1 px-2 text-[#c0b9c4] bg-white rounded-full">

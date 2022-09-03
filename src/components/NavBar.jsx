@@ -8,8 +8,7 @@ export default function NavBar() {
 
   return (
     <div className="bg-[#0D0D2B] text-white flex font-Rubik">
-      TODO:Fix padding issues in mobile
-      <nav className="w-[90%] ml-auto mr-auto">
+      <nav className="w-[100%] sm:w-[90%] ml-auto mr-auto">
         <div className="text-lg bold">
           <img src={logo} alt="" />
         </div>
