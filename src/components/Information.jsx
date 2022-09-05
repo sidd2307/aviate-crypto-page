@@ -39,7 +39,7 @@ export default function Information() {
       </div>
 
       {/* TODO:second */}
-      <div className="w-[100%] sm:w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-x-4 gap-y-6">
+      <div className="w-[100%] sm:w-[90%] mx-auto flex flex-col-reverse md:flex-row">
         {/* right section */}
         <div className="mx-auto w-[90%] md:w-[100%] mt-10 md:mt-0">
           <img className="md:h-[85%] mx-auto" src={Img2} alt="" />
