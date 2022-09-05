@@ -6,7 +6,7 @@ import { AiOutlineCaretRight } from "react-icons/ai";
 
 export default function Information() {
   return (
-    <div className="bg-[#0D0D2B] pt-1 xl:pt-10">
+    <div className="bg-[#2B076E] pt-1 xl:pt-10">
       <div className="w-[90%] sm:w-[80%] md:w-[40%] mx-auto text-center text-white text-xl py-6 sm:text-3xl">
         Market Sentiments, Portfolio, And Run The Infrastructure Of Your Choice
       </div>
