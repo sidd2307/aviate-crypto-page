@@ -6,6 +6,7 @@ import Info from './components/Info';
 import Information from './components/Information';
 import NavBar from './components/NavBar';
 import Stats from './components/Stats';
+import Subscription from './components/Subscription';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Calculator />
       <Cards />
       <Information />
+      <Subscription />
     </div>
   );
 }
