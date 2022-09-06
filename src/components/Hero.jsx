@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImg from "../static/hero-img.png";
 import { AiOutlineCaretRight } from "react-icons/ai";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Hero() {
   return (
@@ -19,6 +20,7 @@ export default function Hero() {
           </div>
 
           {/* heading */}
+
           <div className="font-semi-bold text-4xl lg:text-5xl text-white">
             Fastest & Secure Platform To Invest In Cypto
           </div>
@@ -28,6 +30,7 @@ export default function Hero() {
             buy and sell cyptocurrencies by trusted 10M wallets, in over 100m
             transactions
           </div>
+          {/* </AnimationOnScroll> */}
 
           <div className="w-[202px] h-[40px] bg-[#3671E9] rounded-full px-3 py-2 cursor-pointer flex flex-row justify-between">
             <span className="text-white text-base">Try For Free</span>
@@ -35,11 +38,19 @@ export default function Hero() {
               <AiOutlineCaretRight color="#3671E9" />
             </span>
           </div>
+          {/* </AnimationOnScroll> */}
         </div>
 
         {/* right section */}
-        <div className="mx-auto">
+        <div className="mx-auto md:w-[500px]">
+          {/* <AnimationOnScroll
+            animateIn="animate__zoomIn"
+            delay={500}
+            initiallyVisible="True"
+            animateOnce="True"
+          > */}
           <img className="md:h-[85%]" src={HeroImg} alt="" />
+          {/* </AnimationOnScroll> */}
         </div>
       </div>
     </div>

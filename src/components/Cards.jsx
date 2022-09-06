@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import { AiOutlineRight } from "react-icons/ai";
 import BitCoinImg from "../static/bitcon.png";
 import EthCoinImg from "../static/ethereum.png";
@@ -8,9 +9,11 @@ export default function Cards() {
   const [coin, setcoin] = useState("bitcoin");
   return (
     <div className="bg-gray-100 pb-10 pt-20">
-      <div className="text-black text-2xl w-[90%] md:w-[70%] lg:w-[60%] ml-auto mr-auto text-center font-semibold">
-        Trade Securely And Market The High Growth Cryptocurrencies.
-      </div>
+      <AnimationOnScroll animateIn="animate__zoomIn">
+        <div className="text-black text-2xl w-[90%] md:w-[70%] lg:w-[60%] ml-auto mr-auto text-center font-semibold">
+          Trade Securely And Market The High Growth Cryptocurrencies.
+        </div>
+      </AnimationOnScroll>
 
       <div className="flex flex-col w-[90%] mx-auto xl:flex-row justify-between mt-9">
         {/* card */}
