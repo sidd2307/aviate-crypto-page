@@ -23,8 +23,8 @@ export default function Information() {
 
           {/* desc */}
           <div className="text-gray-400 text-xs">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-            rem ducimus vitae maiores dolorum alias.
+            Get full statistic information about the behaviour of buyers and
+            sellers will help you to make the decision.
           </div>
 
           <div className="w-[152px] h-[40px] bg-[#3671E9] rounded-full px-3 py-2 cursor-pointer flex flex-row justify-between">
@@ -51,13 +51,13 @@ export default function Information() {
 
           {/* heading */}
           <div className="font-semi-bold text-xl lg:text-2xl text-white">
-            Invest Smart
+            Detailed Statistics
           </div>
 
           {/* desc */}
           <div className="text-gray-400 text-xs">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-            rem ducimus vitae maiores dolorum alias.
+            View all mining related information in realtime, at any point at any
+            location and decide which polls you want to mine in.
           </div>
 
           <div className="w-[152px] h-[40px] bg-[#3671E9] rounded-full px-3 py-2 cursor-pointer flex flex-row justify-between">
@@ -74,13 +74,13 @@ export default function Information() {
 
           {/* heading */}
           <div className="font-semi-bold text-xl lg:text-2xl text-white">
-            Invest Smart
+            Grow Your Profit And Track Your Investments
           </div>
 
           {/* desc */}
           <div className="text-gray-400 text-xs">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-            rem ducimus vitae maiores dolorum alias.
+            Use advanced analytical tools. Clear TradingView charts let you
+            track current and historical profit investments.
           </div>
 
           <div className="w-[152px] h-[40px] bg-[#3671E9] rounded-full px-3 py-2 cursor-pointer flex flex-row justify-between">

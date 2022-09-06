@@ -88,7 +88,8 @@ export default function Cards() {
             className="mx-auto text-center text-base"
             style={{ color: coin === "ethereum" ? "white" : "black" }}
           >
-            Digital currency in which a record of transactions is maintained.
+            Blockchain technology to create and run decentralized digital
+            applications.
           </div>
 
           {coin === "ethereum" ? (
@@ -134,7 +135,7 @@ export default function Cards() {
             className="mx-auto text-center text-base"
             style={{ color: coin === "litcoin" ? "white" : "black" }}
           >
-            Digital currency in which a record of transactions is maintained.
+            Cryptocurrency that enables instant payments to anyone in the world.
           </div>
 
           {coin === "litcoin" ? (
