@@ -50,7 +50,7 @@ export default function Footer() {
         </span>
       </div>
 
-      <div className="flex flex-col h-[270px] w-[100%] lg:w-[30%] mx-auto text-center lg:text-left lg:mx-0">
+      <div className="flex flex-col max-h-[270px] w-[100%] lg:w-[30%] mx-auto text-center lg:text-left lg:mx-0">
         <span className="text-white font-normal text-lg mb-5">
           We accept following payment systems
         </span>

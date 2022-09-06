@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 export default function Socials() {
   return (
-    <div className="bg-[#0D0D2B] flex flex-col md:flex-row p-4 md:px-32 md:py-10 justify-between">
+    <div className="bg-[#0D0D2B] flex flex-col md:flex-row p-4 md:px-32 py-5 md:py-10 justify-between">
       <div className="text-white text-lg font-thin w-[90%] md:w-[30%] mx-auto md:mx-0 py-3 text-center md:text-left">
         © 2022 CRAPPO. All rights reserved.
       </div>
