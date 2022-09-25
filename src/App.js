@@ -1,29 +1,22 @@
 import './App.css';
-import Calculator from './components/Calculator';
-import Cards from './components/Cards';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Info from './components/Info';
-import Information from './components/Information';
 import NavBar from './components/NavBar';
 import Socials from './components/Socials';
-import Stats from './components/Stats';
-import Subscription from './components/Subscription';
+import Home from './pages/Home';
+import Chart from './pages/Chart';
 
 function App() {
   return (
-    <div className="duration-1000">
+    <BrowserRouter>
       <NavBar />
-      <Hero />
-      <Stats />
-      <Info />
-      <Calculator />
-      <Cards />
-      <Information />
-      <Subscription />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/trendchart' element={<Chart />} />
+      </Routes>
       <Footer />
       <Socials />
-    </div>
+    </BrowserRouter>
   );
 }
 

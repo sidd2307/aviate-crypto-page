@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../static/logo.svg";
 import "./NavBar.css";
 
@@ -19,7 +20,7 @@ export default function NavBar() {
           ☰
         </div>
         <div className="nav-links">
-          {links.map((node) => {
+          {/* {links.map((node) => {
             return (
               <a
                 key={node}
@@ -29,7 +30,31 @@ export default function NavBar() {
                 {node}
               </a>
             );
-          })}
+          })} */}
+          <Link
+            to="/trendchart"
+            className="text-white text-base py-2 px-4 hover:border-b-[1px] hover:border-blue-500"
+          >
+            Chart
+          </Link>
+          <Link
+            to="/"
+            className="text-white text-base py-2 px-4 hover:border-b-[1px] hover:border-blue-500"
+          >
+            Features
+          </Link>
+          <Link
+            to="/"
+            className="text-white text-base py-2 px-4 hover:border-b-[1px] hover:border-blue-500"
+          >
+            About
+          </Link>
+          <Link
+            to="/"
+            className="text-white text-base py-2 px-4 hover:border-b-[1px] hover:border-blue-500"
+          >
+            Contact
+          </Link>
 
           <a href="/" className="text-white text-base py-2 px-4">
             Login
@@ -53,7 +78,7 @@ export default function NavBar() {
           </div>
           <div className="overlay-menu-wrapper">
             <div className="overlay-menu">
-              {links.map((node) => {
+              {/* {links.map((node) => {
                 return (
                   <a
                     key={node}
@@ -64,7 +89,35 @@ export default function NavBar() {
                     {node}
                   </a>
                 );
-              })}
+              })} */}
+              <Link
+                to="/trendchart"
+                className="overlay-menu-item"
+                style={{ color: "white" }}
+              >
+                Chart
+              </Link>
+              <Link
+                to="/"
+                className="overlay-menu-item"
+                style={{ color: "white" }}
+              >
+                Features
+              </Link>
+              <Link
+                to="/"
+                className="overlay-menu-item"
+                style={{ color: "white" }}
+              >
+                About
+              </Link>
+              <Link
+                to="/"
+                className="overlay-menu-item"
+                style={{ color: "white" }}
+              >
+                Contact
+              </Link>
 
               <div>
                 <a href="/" className="text-white text-base py-2 px-4">
