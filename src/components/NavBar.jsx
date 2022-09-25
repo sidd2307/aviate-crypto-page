@@ -10,9 +10,9 @@ export default function NavBar() {
   return (
     <div className="bg-[#0D0D2B] text-white flex font-Rubik">
       <nav className="w-[100%] sm:w-[90%] ml-auto mr-auto">
-        <div className="text-lg bold">
+        <Link to="/" className="text-lg bold">
           <img src={logo} alt="" />
-        </div>
+        </Link>
         <div
           className="nav-hamburguer-icon"
           onClick={() => setMenuClosed(!isMenuClosed)}
